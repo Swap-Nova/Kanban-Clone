@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    background-color: #fff;
+}
+
+#icon-text{
+    width: 24px;
+    height: 24px;
+    display: grid;
+    column-gap: 50px;
+    gap: 10px;
+    margin-left:22px;
+}
+
+.text-1,.text-2,.text-3,.text-4,.text-5{
+    width: 46px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #787486;
+
+    display:grid;
+    margin-left: 50px;
+}
+
+.home-icon-1{
+    display: block;
+    position: absolute;
+    bottom: 700px;
+}
+
+.home-icon-2{
+    display: block;
+    position: absolute;
+    bottom: 650px;
+}
+
+.home-icon-3{
+    display: block;
+    position: absolute;
+    bottom: 600px;
+}
+
+.home-icon-4{
+    display: block;
+    position: absolute;
+    bottom: 550px;
+}
+
+.home-icon-5{
+    display: block;
+    position: absolute;
+    bottom: 500px;
+}
+
+.text-1{
+    display: block;
+    position: absolute;
+    bottom: 686px;
+}
+
+.text-2{
+    display: block;
+    position: absolute;
+    bottom: 636px;
+}
+
+.text-3{
+    display: block;
+    position: absolute;
+    bottom: 586px;
+}
+
+.text-4{
+    display: block;
+    position: absolute;
+    bottom: 536px;
+}
+
+.text-5{
+    display: block;
+    position: absolute;
+    bottom: 486px;
+}
+
+.horizontal-line-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22px;
+    width:224px;
+    border: 1px solid #DBDBDB;
+
+    position: absolute;
+    bottom: 456px;
+}

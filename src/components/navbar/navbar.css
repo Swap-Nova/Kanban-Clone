@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    background-color: #fff;
+}
+
+.search-container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 417px;
+    height: 44px;
+    top: 50px;
+    left: 50px; 
+    margin-left:299px;
+    margin-top: -22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    background: #fff;
+}
+
+.search-input {
+    padding-left: 60px; 
+    padding-right: 10px;
+    height: 100%;
+    width: 100%;
+    border: 1px ridge #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #787486;
+}
+
+.search-button {
+    padding: 8px 12px;
+    color: #454545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    position: relative;
+    top:-45px;    
+}
+
+.calendar-icon{
+    display: grid;
+    column-gap: 50px;
+    padding:32px 0px;
+    gap:10px;
+    grid-area: right;
+    height:24px;
+    margin-left: 750px;
+    padding-left:300px;
+    width:24px;
+}
+
+.message-icon{
+    display:grid;
+    column-gap: 50px;
+    padding:32px 0px;
+    gap:10px;
+    grid-area: right;
+    height:24px;
+}
+
+.notification-icon{
+    display:grid;
+    column-gap: 50px;
+    padding:32px 0px;
+    gap:10px;
+    grid-area: right;
+    height: 24px;
+}
+
+#button-page-icons{
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 19px;
+    text-align: right;
+    color: #0D062D;
+}
+
+.name{
+    height: 19px;
+    display: grid;
+    margin-right: 150px;
+    margin-top: -70px;
+}
+
+.location{
+    height:17px;
+    display: grid;
+    margin-right: 150px;
+    margin-top: -10px;
+}
+
+.face-icon{
+    width:47px;
+    height:71px;
+    position: absolute;
+    margin-left: 1350px;
+    bottom: 760px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 40px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.horizontal-line{
+    border: 1px solid #DBDBDB;
+    width: 1438.5px;
+    height: 0px;
+    margin-top: 25px;
+}
+
+.vertical-line{
+    display: block;
+    width: 0px;
+    height: 1000px;
+    margin-left:250.5px;
+    margin-top: -95px;
+    border-left: 1px solid #DBDBDB;   
+    background-color: #DBDBDB;
+}

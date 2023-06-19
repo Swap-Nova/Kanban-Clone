@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    background-color: #fff;
+}
+
+#project-header{
+    display: block;
+    padding: 0;
+    column-gap: 5px;
+    padding-right: 40px;
+    position: absolute;
+    bottom:400px;
+    left:22px;
+}
+
+.heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #787486;
+} 
+
+.plus-icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+
+.main-list,.triple-dots{
+    display: grid;
+    grid-template-columns: auto;
+    padding-left:30px;
+}
+
+.list-1, .list-2, .list-3, .list-4{
+    width: 138px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #787486;
+    padding: 20px;
+}
+
+.list-1{
+    position: absolute;
+    bottom:350px;
+    background: rgba(80, 48, 229, 0.08);
+    border-radius: 6px;   
+}
+
+.triple-dots{
+    padding:20px;
+    position: absolute;
+    left:195px;
+    top:415px;
+    color: #0D062D;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.07em;
+    width: 16px;
+    height: 19px;
+}
+
+.list-2{
+    position: absolute;
+    bottom:300px;
+    /* left: 10px; */
+}
+
+.list-3{
+    position: absolute;
+    bottom:250px;
+}
+
+.list-4{
+    position: absolute;
+    bottom:200px;
+}
+
+ul{
+    list-style: none;
+}
+
+.list-1::before{
+    content: "\2022";
+    color: #7AC555;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: 2px;
+}
+
+.list-2::before{
+    content: "\2022";
+    color: #FFA500;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: 2px;
+}
+
+.list-3::before{
+    content: "\2022";
+    color: #E4CCFD;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: 2px;
+}
+
+.list-4::before{
+    content: "\2022";
+    color: #76A5EA;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: 2px;
+}

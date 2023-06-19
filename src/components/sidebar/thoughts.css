@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    background-color: #fff;
+}
+
+#background-container{
+    width: 33px;
+    height: 33px;
+
+    background: rgba(252, 214, 74, 0.7);
+    filter: blur(17px);
+
+    display: block;
+    position: absolute;
+    top:700px;
+    margin-left: 120px;
+}
+
+.bulb-icon{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 120px;
+    position: absolute;
+    top:700px;
+}
